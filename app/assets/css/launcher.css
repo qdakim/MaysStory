@@ -3136,6 +3136,15 @@ input:checked + .toggleSwitchSlider:before {
     transition-delay:0s;
 }
 
+/* Chzzk icon colors. */
+#chzzkSVG:hover,
+#chzzkURL:focus #chzzkSVG {
+    fill: #00FFA3FF;
+}
+#chzzkSVG:active {
+    fill: #00FFA3FF;
+}
+
 /* Twitter icon colors. */
 #twitterSVG:hover,
 #twitterURL:focus #twitterSVG {
